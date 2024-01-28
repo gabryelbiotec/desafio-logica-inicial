@@ -1,7 +1,7 @@
-// Obtendo o nome e a quantidade de experiência do herói
+// Nome e a quantidade de experiência do herói
 let nomeHeroi = "Amon";
 let xpHeroi = 10001
-// Utilizando uma estrutura de decisão para determinar o nível
+// Estrutura de decisão para determinar o nível
 let nivel;
 
 if (xpHeroi < 1000) {
@@ -22,5 +22,5 @@ if (xpHeroi < 1000) {
     nivel = "Radiante";
 }
 
-// Exibindo a mensagem final
+// Mensagem final
 console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel);
